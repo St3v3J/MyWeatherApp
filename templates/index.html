@@ -14,5 +14,15 @@
 <p>Weather description: {{ data.weather[0].description }}</p>
 <p>Current temperature: {{ data.main.temp }}</p>
 
+    {% extends "base.html" %}
+
+    {% block content %}
+    <p>Hello, index.html here!</p>
+
+    <p>{{some_text}}</p>
+    <p>Current year:  {{current_year}}</p>
+    {% endblock content %}
+
 </body>
 </html>
+
