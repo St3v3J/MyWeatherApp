@@ -7,13 +7,17 @@
         <link rel="stylesheet" href="/static/css/style.css">
     </head>
     <body>
-        <h1>An amazing new app with Jinja!</h1>
+        <h1>An amazing new message app with Jinja!</h1>
+        <p>
+            <a href="/">Home</a>,
+            <a href="/about-me">About me</a>
+        </p>
 
         {% block content %}
         {% endblock content %}
-    <p>
-    <a href="/">Home</a>,
-    <a href="/about-me">About me</a>
-    </p>
+
+        <hr>
+
+        <p>Jinja documentation: <a href="http://jinja.pocoo.org/" target="_blank">click here</a></p>
     </body>
 </html>
